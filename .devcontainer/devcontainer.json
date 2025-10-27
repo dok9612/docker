@@ -1,8 +1,0 @@
-{
-  "name": "Poom Python Dev Container",
-  "dockerFile": "../Dockerfile",  // Points to your Dockerfile in the parent folder
-  "extensions": [
-    "ms-python.python"  // Installs the Python extension inside the container for syntax highlighting/debugging
-  ],
-  "postCreateCommand": "pip install pandas"  // Optional: Runs after container starts, in case deps need refresh
-}
