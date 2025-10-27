@@ -1,0 +1,7 @@
+echo ".venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+.dockerignore" > .gitignore
